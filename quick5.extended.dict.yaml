@@ -49,6 +49,8 @@ import_tables:
   - net
   - mix
   - physics
+  - vietnamese
+  - hakka
   #- quick5.movie
   #- quick5.music
   #- quick5.computer

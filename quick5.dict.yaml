@@ -80,9 +80,208 @@ min_phrase_weight: 100
 ⻌	z
 ⻍	z
 ⺀	z
-𡃁	ru
-函	ne
-靈	mm
+𡨸	jd
+𧵑	br
+𪜀	tn
+𠬠	ce
+𠄧	am
+𣅶	ac
+𠃣	nh
+𡥵	np
+𤾓	md
+𠦳	zj
+𨤔	sd
+𫯳	ho
+𦓡	il
+𠊛	ao
+𢧚	os
+𠸗	lr
+𤞦	kz
+𠊚	hi
+𥪝	zl
+𠮩	rn
+𠸥	rj
+𣇞	ad
+𠬃	gb
+𡎥	ng
+𥹰	fo
+𠇍	op
+𦓅	jd
+𧗱	hn
+𧿨	re
+𠫾	gi
+𦤾	mm
+𡢐	fr
+𠓨	ph
+𫥨	wu
+𡗉	gi
+𠳒	rm
+𫇰	ta
+𨉟	hl
+𠓀	hr
+𣦍	jm
+𨕭	zj
+𢣂	pi
+𢖵	pv
+𤯩	mm
+ㇴ	e
+𠱊	rg
+𢆥	jq
+𢜠	pb
+𨖅	zl
+𨷶	hq
+𤤰	mb
+𥘷	ih
+𠅳	zc
+𨔈	zn
+𩅹	mu
+𦣰	jo
+𡛔	vs
+𤳇	ds
+𡮣	fh
+𡊲	gg
+𠄩	im
+𩈘	dl
+𧼋	gh
+𤳄	li
+𡀯	ri
+𣈜	ai
+𣎃	br
+𫢩	sn
+𢷮	qi
+𨖲	hj
+𨅸	ri
+𤖹	lt
+𠸜	hr
+𠁀	pp
+𩵜	nn
+𣋚	ao
+𠯆	rv
+𣩂	qp
+𧡊	ou
+𥆾	bp
+𣗓	da
+𠄼	jm
+𤊡	fq
+𡽫	uk
+𥒥	mi
+𣖙	dk
+𢭲	qc
+𣘃	do
+𠁦	lz
+𡮈	bc
+𠀧	sm
+𦒹	jc
+𬙞	wu
+𪰂	zc
+𡨹	jn
+𢢲	pd
+𨷑	tt
+𨀈	rp
+𠶢	rw
+𡦂	jd
+𧘇	v
+𣃣	ze
+𡘯	zk
+𡚢	kd
+𥽢	fk
+𦘧	sm
+𪝳	oo
+𧆄	dd
+𥏌	ou
+𢂞	cb
+𢲧	qo
+𨢇	mw
+𢬣	qw
+𢺺	jh
+𤽸	hg
+𢝙	pt
+𢚸	mp
+𡗋	zi
+𢞅	pv
+𡨌	jl
+𡞕	vw
+𠖤	bp
+𡖡	zi
+𧖱	hl
+𥙩	io
+𦖑	sm
+𠢞	qs
+𠊟	ou
+𣎀	br
+𫀅	ir
+𠰺	rp
+𣷷	ee
+𠅍	dv
+𨑜	zz
+𤀘	ei
+𣛤	wo
+𧸝	gq
+𠹾	br
+𦝄	be
+𡗶	mm
+𢞂	pt
+𠰘	rt
+𠹲	ra
+𣋀	jm
+𠭤	re
+𠳐	rl
+𧁷	tj
+𥐉	at
+𧵆	bl
+𧷸	bk
+𖿱	v
+𤲂	wz
+𤎜	fb
+𤯆	tr
+𣊾	ap
+𥩯	zd
+𠳨	rz
+𢘾	pr
+𠾕	ro
+𨑻	zu
+𠋥	ou
+𣛠	dc
+𡥙	nr
+𠁂	jn
+𨱽	sp
+𥄬	bm
+𧹼	gl
+𦊚	wm
+𣇜	ac
+𤄯	zb
+𢟘	pi
+𩄲	md
+𠸒	rd
+𢮪	qc
+𢗼	ph
+𣈖	aq
+𡑝	gq
+𤯨	ht
+𨑮	zj
+𡶀	ub
+𩃳	mq
+𤗲	lh
+𨒺	zu
+𢜝	pn
+𧿆	ru
+𡉕	gi
+𠋺	oi
+𡏦	gm
+𠁟	tc
+𪀄	zf
+𢩿	qg
+𤙭	hb
+𥃑	he
+𠔭	hh
+𠃩	kh
+𣟮	ne
+𥾘	vg
+𥿗	vc
+𢩮	qp
+𡎝	gk
+𠱋	rw
+ㇶ	p
 昌	aa
 昍	aa
 晶	aa
@@ -1140,6 +1339,7 @@ min_phrase_weight: 100
 膵	bj
 罔	bv
 目	bu
+𥄫	be
 冚	bu
 睲	bm
 睸	bu
@@ -10477,7 +10677,7 @@ min_phrase_weight: 100
 霣	mc
 霵	mi
 露	mr
-靈	mo
+靈	mm
 龗	mp
 霝	mr
 孁	mv
@@ -15605,6 +15805,7 @@ min_phrase_weight: 100
 嗢	rt
 唧	rl
 嘅	ru
+𡃁	ru
 呾	rm
 咗	rm
 啺	rh
@@ -18905,7 +19106,7 @@ min_phrase_weight: 100
 嶰	uq
 崅	uq
 嶦	ur
-函	ue
+函	ne
 岌	ue
 岋	ue
 屷	us
@@ -20908,7 +21109,7 @@ min_phrase_weight: 100
 椉	zd
 驘	zf
 甝	zm
-羸	zq
+羸	zn
 嬴	zv
 臝	zd
 虤	zn

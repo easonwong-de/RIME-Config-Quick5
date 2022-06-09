@@ -1,0 +1,24 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# f_mysecretphrases.dict.yaml
+#
+
+---
+name: my
+version: "2016.07.27"
+sort: by_weight
+use_preset_vocabulary: true
+...
+eason.wong.yisum@gmail.com	ymail	10000000000
+wangyatsing@gmail.com	ymail	9999999999
+wangyatsing@yahoo.com	ymail	9999999998
+王義心	yname	9999999997
+王义心	yname	9999999996
+
+
+
+
+
+
+

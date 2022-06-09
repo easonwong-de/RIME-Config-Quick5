@@ -1,7 +1,7 @@
 
 ---
 name: cantonese
-version: "2014.09.07"
+version: "2022.06.09"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 1
@@ -2259,6 +2259,7 @@ max_phrase_length: 1
 仲話
 仲講
 仲嚟
+俹簁
 件頭
 份人
 企一齊
