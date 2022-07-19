@@ -11,7 +11,7 @@ patch:
     border_color: 0x282828
     candidate_text_color: 0xffffff
     hilited_back_color: 0xffffff
-    hilited_candidate_back_color: 0x363636
+    hilited_candidate_back_color: 0x3a3a3a
     hilited_candidate_text_color: 0xffffff
     hilited_text_color: 0x000000
     name: Micosoft
@@ -19,7 +19,7 @@ patch:
   "style/color_scheme": Micosoft
   "style/display_tray_icon": false
   "style/font_face": "Microsoft JhengHei UI"
-  "style/font_point": 10
+  "style/font_point": 12
   "style/horizontal": true
   "style/inline_preedit": true
   "style/layout/border": 0
@@ -30,4 +30,4 @@ patch:
   "style/layout/margin_x": 12
   "style/layout/margin_y": 12
   "style/layout/round_corner": 0
-  "style/layout/spacing": 10
+  "style/layout/spacing": 12
