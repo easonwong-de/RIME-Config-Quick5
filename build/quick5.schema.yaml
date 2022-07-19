@@ -1,14 +1,14 @@
 __build_info:
   rime_version: 1.7.3
   timestamps:
-    default: 1641483522
+    default: 1658237332
     default.custom: 0
     key_bindings: 1626295123
     key_bindings.custom: 0
     punctuation: 1639755551
     punctuation.custom: 0
     quick5.custom: 1626331803
-    quick5.schema: 1640004924
+    quick5.schema: 1658238414
     symbols: 1642188094
     symbols.custom: 0
 custom_phrase:
@@ -165,28 +165,18 @@ schema:
   description: |
     Rime 速成輸入法
     
-  name: "速成"
+  name: "美鍵速成"
   schema_id: quick5
   version: 1.0
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
 switches:
-  - name: ascii_mode
-    reset: 0
-    states: ["中文", "西文"]
-  - name: full_shape
-    states: ["半角", "全角"]
   - name: simplification
-    states: ["正", "殘"]
-  - name: ascii_punct
-    states: ["。，", "．，"]
-  - name: emoji_suggestion
-    reset: 1
-    states: ["關", "開"]
+    states: ["標準漢字", "规范汉字"]
 translator:
   comment_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難符卜～|"
+    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
   dictionary: quick5.extended
   preedit_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz;'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難符卜··|"
+    - "xlit|abcdefghijklmnopqrstuvwxyz;'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符··|"

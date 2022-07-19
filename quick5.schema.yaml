@@ -3,7 +3,7 @@
 
 schema:
   schema_id: quick5
-  name: 速成
+  name: 美鍵速成
   version: "1.0"
   author:
     - 倉頡作者：朱邦復先生
@@ -14,18 +14,8 @@ menu:
   page_size: 9
 
 switches:
-  - name: ascii_mode
-    reset: 0
-    states: [ 中文, 西文 ]
-  - name: full_shape
-    states: [ 半角, 全角 ]
   - name: simplification
-    states: [ 正, 殘 ]
-  - name: ascii_punct
-    states: ["。，", "．，"]
-  - name: emoji_suggestion
-    reset: 1
-    states: [ 關, 開 ]
+    states: [ 標準漢字, 规范汉字 ]
 
 engine:
   processors:
@@ -62,9 +52,9 @@ speller:
 translator:
   dictionary: quick5.extended
   comment_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難符卜～|"
+    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
   preedit_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz;'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難符卜··|"
+    - "xlit|abcdefghijklmnopqrstuvwxyz;'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符··|"
 
 custom_phrase:
   dictionary: ""

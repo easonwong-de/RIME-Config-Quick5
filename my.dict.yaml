@@ -6,12 +6,15 @@
 
 ---
 name: my
-version: "2016.07.27"
+version: "2022.07.19"
 sort: by_weight
 use_preset_vocabulary: true
 ...
-example@example.com	ymail	10000000000
-名字	yname	9999999997
+example@gmail.com	zmail	10000000000
+example@gmail.com	zmail	9999999999
+example@yahoo.com	zmail	9999999998
+example	zname	9999999997
+example	zname	9999999996
 
 
 

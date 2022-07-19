@@ -1,0 +1,86 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: quick5de
+  name: 德鍵速成
+  version: "1.0"
+  author:
+    - 倉頡作者：朱邦復先生
+    - JACKCHAN000@github
+  description: |
+    Rime 速成輸入法
+menu:
+  page_size: 9
+
+switches:
+  - name: simplification
+    states: [ 標準漢字, 规范汉字 ]
+
+engine:
+  processors:
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator@custom_phrase
+    - script_translator
+    - lua_translator@date_translator
+    - lua_translator@time_translator
+    - lua_translator@week_translator
+
+  filters:
+    - simplifier
+    - uniquifier
+    - simplifier@emoji_suggestion
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+
+translator:
+  dictionary: quick5de.extended
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難符卜～|"
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz;'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難符卜··|"
+
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    email: ^[a-z][-_.0-9a-z]*@.*$
+    url: ^(www[.]|https?:|ftp:|mailto:).*$
+#    punct: '^/([0-9]0?|[A-Za-z]+)$'
+#    phonetic: "';[1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/6347-]*'?$"
+#    cantonese: "`[a-z]*'?$"
+#    phoneticpinyin: "';[1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/6347-]*'?$"
+#    pinyin: "//[a-z]*'?$"
+
+emoji_suggestion:
+   opencc_config: emoji.json
+   option_name: emoji_suggestion
