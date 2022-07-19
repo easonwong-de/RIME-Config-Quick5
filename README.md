@@ -1,5 +1,5 @@
 # Rime.config
-Cofiguration of RIME specified for typing Sucheng (速成) on German keyboard layout
+Cofiguration of RIME typing Sucheng (速成) on Englich and German keyboard
 
 Including Cantonese, Hakka, and Vietnamese vocabularies  
-You may want to swap “z” and “y” in the file `quick5.dict.yaml`, `symbols.yaml`, and `my.dict.yaml`
+Press `control + \`` to switch between 德鍵速成 (quick5de) and 美鍵速成 (quick5)
