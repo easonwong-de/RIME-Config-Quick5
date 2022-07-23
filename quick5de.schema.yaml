@@ -18,7 +18,7 @@ switches:
     states: [ 標準漢字, 规范汉字 ]
   - name: emoji_suggestion
     reset: 1
-    states: ["Emoji 關", "Emoji 開"]
+    states: [ Emoji 關, Emoji 開 ]
 
 engine:
   processors:
