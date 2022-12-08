@@ -30,7 +30,7 @@ import_tables:
   - lun
   - micro
   - myde
-  - emojide
+  - quicksymbolsde
   - sgmain
   - sgplus
   - sgplus2
@@ -51,6 +51,7 @@ import_tables:
   - physics
   - vietnamese
   - hakka
+  - hangylde
   #- quick5.movie
   #- quick5.music
   #- quick5.computer

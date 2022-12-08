@@ -1,4 +1,4 @@
-
+# Author: Eason Wong
 ---
 name: hakka
 version: "2022.06.09"
@@ -10,6 +10,8 @@ max_phrase_length: 1
 天吂光
 還吂
 吂有
+吂連
+吂好
 吂得時
 吂曾至間
 吂熟嘅
@@ -38,7 +40,6 @@ max_phrase_length: 1
 有拚嘅
 油性嘅
 空殼嘅
-嘅熟嘅
 無字眼嘅
 毋成人嘅
 別嘅人
