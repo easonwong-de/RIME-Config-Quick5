@@ -1,61 +1,64 @@
 patch:
-  show_notifications_when: appropriate # 狀態通知，可設為全開（always）全關（never）  
+  show_notifications_when: appropriate # 狀態通知，可設為全開（always）全關（never）
 
   # 更換皮膚
   style/color_scheme: macos_dark
 
-  # 皮膚主題 
+  # 皮膚主題
   preset_color_schemes:
-  
     macos_light:
       author: "一方<liuour@gmail.com>"
-      back_color: 0xFFFFFF                      # 候選條背景色，24位色值，16進制，BGR順序
-      border_color: 0xFFFFFF                    # 邊框色
-      text_color: 0x424242                      # 拼音行文字顏色
-      hilited_back_color: 0xD75A00              # 第一候選項背景背景色
-      hilited_candidate_text_color: 0xFFFFFF    # 第一候選項文字顏色
-      hilited_candidate_label_color: 0xFFFFFF   # 第一候選項編號顏色
-      hilited_comment_text_color: 0x999999      # 註解文字高亮
-      hilited_text_color: 0x999999              # 高亮拼音 (需要開啟內嵌編碼)
-      candidate_text_color: 0x3c3c3c            # 預選項文字顏色
-      comment_text_color: 0x999999              # 拼音等提示文字顏色
-      horizontal: true                          # 水平排列
-      inline_preedit: true                      # 單行顯示，false雙行顯示
-      label_color: 0x999999                     # 預選欄編號顏色
-      candidate_format: "%c\u2005%@"            # 用 1/6 em 空格 U+2005 來控制編號 %c 和候選詞 %@ 前後的空間
-      font_face: "PingFangHK"                   # 候選詞編號字體
-      font_point: 16              # 候選文字大小
-      label_font_point: 13        # 候選編號大小
-      corner_radius: 5            # 候選條圓角
-      hilited_corner_radius: 5    # 高亮圓角
-      border_height: 4            # 窗口上下高度
-      border_width: 4             # 窗口左右寬度
-      border_color_width: 0       # 輸入條邊框寬度
+      back_color: 0xFFFFFF # 候選條背景色，24位色值，16進制，BGR順序
+      border_color: 0xFFFFFF # 邊框色
+      text_color: 0x424242 # 拼音行文字顏色
+      hilited_back_color: 0xD75A00 # 第一候選項背景背景色
+      hilited_candidate_text_color: 0xFFFFFF # 第一候選項文字顏色
+      hilited_candidate_label_color: 0xFFFFFF # 第一候選項編號顏色
+      hilited_comment_text_color: 0x999999 # 註解文字高亮
+      hilited_text_color: 0x999999 # 高亮拼音 (需要開啟內嵌編碼)
+      candidate_text_color: 0x3c3c3c # 預選項文字顏色
+      comment_text_color: 0x999999 # 拼音等提示文字顏色
+      horizontal: true # 水平排列
+      inline_preedit: true # 單行顯示，false雙行顯示
+      label_color: 0x999999 # 預選欄編號顏色
+      candidate_format: "%c\u2005%@" # 用 1/6 em 空格 U+2005 來控制編號 %c 和候選詞 %@ 前後的空間
+      font_face: "PingFangHK" # 候選詞編號字體
+      font_point: 16 # 候選文字大小
+      label_font_point: 13 # 候選編號大小
+      corner_radius: 5 # 候選條圓角
+      hilited_corner_radius: 5 # 高亮圓角
+      border_height: 4 # 窗口上下高度
+      border_width: 4 # 窗口左右寬度
+      border_color_width: 0 # 輸入條邊框寬度
 
     macos_dark:
-      back_color: 0x1F1D1C                      # 候選條背景色，24位色值，16進制，BGR順序
-      border_color: 0x1F1D1C                    # 邊框色
-      text_color: 0x424242                      # 拼音行文字顏色
-      hilited_back_color: 0xD75A00              # 第一候選項背景背景色
-      hilited_candidate_text_color: 0xFFFFFF    # 第一候選項文字顏色
-      hilited_candidate_label_color: 0xFFFFFF   # 第一候選項編號顏色
-      hilited_comment_text_color: 0x999999      # 註解文字高亮
-      hilited_text_color: 0x999999              # 高亮拼音 (需要開啟內嵌編碼)
-      candidate_text_color: 0xe9e9ea            # 預選項文字顏色
-      comment_text_color: 0x999999              # 拼音等提示文字顏色
-      horizontal: true                          # 水平排列
-      inline_preedit: true                      # 單行顯示，false雙行顯示
-      label_color: 0x999999                     # 預選欄編號顏色
-      candidate_format: "%c\u2005%@\u2005"      # 用 1/6 em 空格 U+2005 來控制編號 %c 和候選詞 %@ 前後的空間
-      font_face: "PingFangHK"                   # 候選詞編號字體
-      font_point: 16              # 候選文字大小
-      label_font_point: 13        # 候選編號大小
-      corner_radius: 6            # 候選條圓角
-      hilited_corner_radius: 6    # 高亮圓角
-      border_height: 4            # 窗口上下高度
-      border_width: 4             # 窗口左右寬度
-      border_color_width: 0       # 輸入條邊框寬度
+      author: "YS-Wong@GitHub"
+      font_face: "Helvetica"
+      font_point: 16.0
+      label_font_face: "Helvetica"
+      label_font_point: 13.0
+      comment_font_face: "Helvetica"
+      comment_font_point: 13.0
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      corner_radius: 6.0
+      hilited_corner_radius: 4.0
+      border_height: 2.0
+      border_width: 2.0
+      color_space: srgb
+      back_color: 0x1E1E1E
+      border_color: 0x1E1E1E
+      candidate_text_color: 0xE9E9E9
+      comment_text_color: 0x999999
+      label_color: 0x999999
+      hilited_candidate_back_color: 0xD1592B
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_comment_text_color: 0x999999
+      hilited_candidate_label_color: 0xFFFFFF
+      text_color: 0x424242
+      hilited_text_color: 0x999999
 
-app_options:    # App關閉/開啟中文輸入
-    com.apple.Spotlight:            # 聚焦搜索
-        ascii_mode: false
+app_options: # App關閉/開啟中文輸入
+  com.apple.Spotlight: # 聚焦搜索
+    ascii_mode: false

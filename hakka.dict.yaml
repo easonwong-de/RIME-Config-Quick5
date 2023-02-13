@@ -5,7 +5,7 @@ version: "2022.06.09"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 1
-...
+---
 食飽吂
 天吂光
 還吂

@@ -8,7 +8,7 @@ version: "2018.02.24"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 1
-...
+---
 M記	mzu
 M字額	mjdjc
 兩盒Thx	mootthx
@@ -1693,5 +1693,3 @@ Bob叔
 返校
 高爾宣
 茄子蛋
-
-
