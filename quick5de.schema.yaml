@@ -65,7 +65,7 @@ custom_phrase:
   initial_quality: 1
 
 punctuator:
-  import_preset: symbols
+  import_preset: symbolsde
 
 key_binder:
   import_preset: default
