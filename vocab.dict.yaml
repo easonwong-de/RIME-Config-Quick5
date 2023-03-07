@@ -1,20 +1,6 @@
-# Rime dictionary
-# encoding: utf-8
-#
-#  BetterRime词库增强包－实用版の准正式版 by @imy0823
-#
-#
-# 部署位置：
-# ~/.config/ibus/rime  (Linux)
-# ~/Library/Rime  (Mac OS)
-# %APPDATA%\Rime  (Windows)
-#
-# 於重新部署後生效
-#
-
 ---
 name: vocab
-version: "2016.10.29"
+version: "2023.03.07"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 1

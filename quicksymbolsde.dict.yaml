@@ -1,18 +1,9 @@
-# quicksymbolsde.dict.yaml
-# 雪齋 <leoyoontsaw@gmail.com>
-# 編碼以 Unicode 分類爲主，Kunki Chou 整理
-# 29-Apr-2014 添加字頻，字頻得自 http://www.emojitracker.com ，統計自 twitter.com
-
-# Greek letter, Math symbol, Kana, Bopomofo
-
 ---
 name: quicksymbolsde
-version: "2022.07.19"
+version: "2023.03.07"
 sort: by_weight
 use_preset_vocabulary: false
 ...
-
-# 小寫希臘字母
 α	yalpha
 β	ybeta
 γ	ygamma
@@ -42,8 +33,6 @@ use_preset_vocabulary: false
 χ	ychi
 ψ	ypsi
 ω	yomega
-
-# 大寫希臘字母
 Α	yalpha
 Β	ybeta
 Γ	ygamma
@@ -74,9 +63,6 @@ use_preset_vocabulary: false
 Ψ	ypsi
 Ω	yomega
 Ω	yohm
-
-# 希臘字母變體
-# 只收錄用作數學符號的
 ϵ	yepsilon
 ϑ	ytheta
 ϰ	ykappa
@@ -86,10 +72,6 @@ use_preset_vocabulary: false
 ϕ	yphi
 Ϝ	ydigamma
 ϝ	ydigamma
-
-# 其他數學符號
-# 主要參考的是 TeX
-# https://en.wikipedia.org/wiki/Help:Displaying_a_formula
 ∂	ypartial
 ∇	ynabla
 ∞	yinfty
@@ -136,8 +118,6 @@ use_preset_vocabulary: false
 ∐	ycoprod
 ∫	yint
 ∮	yoint
-
-#假名
 ぁ	yxa
 あ	ya
 ぃ	yxi
@@ -308,8 +288,6 @@ use_preset_vocabulary: false
 ヴ	yvu
 ヵ	yxka
 ヶ	yxke
-
-#注音
 ㄅ	ybo
 ㄆ	ypo
 ㄇ	ymo

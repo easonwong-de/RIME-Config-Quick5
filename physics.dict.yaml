@@ -1,11 +1,10 @@
 ﻿---
-name: poetry
-version: "2013.11.21"
+name: physics
+version: "2023.03.07"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 1
 ...
-
 阿貝不變數
 阿貝成象原理
 阿貝爾定理

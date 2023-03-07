@@ -1,20 +1,6 @@
-# Rime dictionary
-# encoding: utf-8
-#
-#  BetterRime词库增强包－实用版の准正式版 by @imy0823
-#
-#
-# 部署位置：
-# ~/.config/ibus/rime  (Linux)
-# ~/Library/Rime  (Mac OS)
-# %APPDATA%\Rime  (Windows)
-#
-# 於重新部署後生效
-#
-
 ---
 name: sgplus2
-version: "2015.09.19"
+version: "2023.03.07"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 1
@@ -28631,7 +28617,7 @@ max_phrase_length: 1
 東安門
 東澳
 東澳島
-東八里 
+東八里
 東八里莊
 東八路
 東八區
@@ -32458,7 +32444,7 @@ max_phrase_length: 1
 而忽視了
 而己
 而今天
-而進行的 
+而進行的
 而開
 而開發
 而開始
@@ -36947,7 +36933,7 @@ max_phrase_length: 1
 付康
 付款吧
 付款的話
-付款後 
+付款後
 付款前
 付款申請單
 付款通知單
@@ -61943,7 +61929,7 @@ max_phrase_length: 1
 繳費機
 繳費憑證
 繳費易
-繳裹兒 
+繳裹兒
 繳了
 繳滿
 攪拌杯
@@ -69714,7 +69700,7 @@ max_phrase_length: 1
 可是我卻
 可是我是
 可是我要
-可是在 
+可是在
 可是這樣
 可視卡
 可視爲
@@ -73697,7 +73683,7 @@ max_phrase_length: 1
 雷格
 雷格斯
 雷怪
-雷光夏 
+雷光夏
 雷浩
 雷和
 雷黑子
@@ -82074,7 +82060,7 @@ max_phrase_length: 1
 劉永康
 劉永利
 劉永亮
-劉永林 
+劉永林
 劉永明
 劉永平
 劉永琪
@@ -98300,7 +98286,7 @@ max_phrase_length: 1
 你徒弟
 你吐
 你團
-你推 
+你推
 你推薦
 你推薦的
 你腿
@@ -117988,7 +117974,7 @@ max_phrase_length: 1
 石美
 石門路
 石門橋
-石門營 
+石門營
 石門鎮
 石棉墊
 石棉繩
@@ -135061,7 +135047,7 @@ max_phrase_length: 1
 王六
 王隆
 王龍
-王龍飛 
+王龍飛
 王龍龍
 王瓏
 王樓
@@ -149991,7 +149977,7 @@ max_phrase_length: 1
 想下班
 想先
 想想啊
-想想唄 
+想想唄
 想象空間
 想象了
 想曉得
@@ -165292,7 +165278,7 @@ max_phrase_length: 1
 奕迅
 疫點
 挹江門
-益安寧 
+益安寧
 益佰
 益邦投資
 益斌
@@ -189484,5 +189470,3 @@ max_phrase_length: 1
 做做題
 做做運動
 做做做
-
-

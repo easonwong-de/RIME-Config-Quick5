@@ -1,20 +1,9 @@
-# Rime dictionary
-# mim: set ts=8 sw=8 noet:
-# encoding: utf-8
-#
-# hangyl - 한글
-# Patrick <ipatrickmac@gmail.com>
-# 韓文轉寫方案
-# Modified by Eason Wong
-
 ---
-
 name: hangyl
-version: "0.13"
-sort: by_weight	#original
+version: "2023.03.07"
+sort: by_weight
 use_preset_vocabulary: false
 ...
-
 ㄱ	zg
 가	zga
 각	zgag

@@ -1,10 +1,6 @@
-# encoding: utf-8
-# 碼表來自 www.chinesecj.com
-# Modified by Eason
-
 ---
 name: "quick5de"
-version: "2022.07.19"
+version: "2023.03.07"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -170,7 +166,7 @@ min_phrase_weight: 100
 𣘃	do
 𠁦	lz
 𡮈	bc
-𠀧	sm
+𠀧	am
 𦒹	jc
 𬙞	wu
 𪰂	zc
@@ -187,7 +183,7 @@ min_phrase_weight: 100
 𥽢	fk
 𦘧	sm
 𪝳	oo
-𧆄	dd
+𧆄	dd
 𥏌	ou
 𢂞	cb
 𢲧	qo

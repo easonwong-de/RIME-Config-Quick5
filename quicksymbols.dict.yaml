@@ -1,18 +1,9 @@
-# quicksymbols.dict.yaml
-# 雪齋 <leoyoontsaw@gmail.com>
-# 編碼以 Unicode 分類爲主，Kunki Chou 整理
-# 29-Apr-2014 添加字頻，字頻得自 http://www.emojitracker.com ，統計自 twitter.com
-
-# Greek letter, Math symbol, Kana, Bopomofo
-
 ---
 name: quicksymbols
-version: "2022.07.19"
+version: "2023.03.07"
 sort: by_weight
 use_preset_vocabulary: false
 ...
-
-# 小寫希臘字母
 α	zalpha
 β	zbeta
 γ	zgamma
@@ -42,8 +33,6 @@ use_preset_vocabulary: false
 χ	zchi
 ψ	zpsi
 ω	zomega
-
-# 大寫希臘字母
 Α	zalpha
 Β	zbeta
 Γ	zgamma
@@ -74,9 +63,6 @@ use_preset_vocabulary: false
 Ψ	zpsi
 Ω	zomega
 Ω	zohm
-
-# 希臘字母變體
-# 只收錄用作數學符號的
 ϵ	zepsilon
 ϑ	ztheta
 ϰ	zkappa
@@ -86,10 +72,6 @@ use_preset_vocabulary: false
 ϕ	zphi
 Ϝ	zdigamma
 ϝ	zdigamma
-
-# 其他數學符號
-# 主要參考的是 TeX
-# https://en.wikipedia.org/wiki/Help:Displaying_a_formula
 ∂	zpartial
 ∇	znabla
 ∞	zinfty
@@ -136,8 +118,6 @@ use_preset_vocabulary: false
 ∐	zcoprod
 ∫	zint
 ∮	zoint
-
-#假名
 ぁ	zxa
 あ	za
 ぃ	zxi
@@ -308,8 +288,6 @@ use_preset_vocabulary: false
 ヴ	zvu
 ヵ	zxka
 ヶ	zxke
-
-#注音
 ㄅ	zbo
 ㄆ	zpo
 ㄇ	zmo
