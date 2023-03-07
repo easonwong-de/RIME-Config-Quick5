@@ -1,6 +1,6 @@
 ---
 name: place
-version: "2018.02.24"
+version: "2023.03.07"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 1

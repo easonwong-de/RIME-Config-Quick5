@@ -1,6 +1,3 @@
-# Rime key bindings
-# encoding: utf-8
-
 emacs_editing:
   __append:
     - { when: composing, accept: Control+p, send: Up }
@@ -17,28 +14,23 @@ emacs_editing:
     - { when: composing, accept: Control+y, send: Page_Up }
     - { when: composing, accept: Alt+v, send: Page_Up }
     - { when: composing, accept: Control+v, send: Page_Down }
-
 move_by_word_with_tab:
   __append:
     - { when: composing, accept: ISO_Left_Tab, send: Shift+Left }
     - { when: composing, accept: Shift+Tab, send: Shift+Left }
     - { when: composing, accept: Tab, send: Shift+Right }
-
 paging_with_minus_equal:
   __append:
     - { when: has_menu, accept: minus, send: Page_Up }
     - { when: has_menu, accept: equal, send: Page_Down }
-
 paging_with_comma_period:
   __append:
     - { when: paging, accept: comma, send: Page_Up }
     - { when: has_menu, accept: period, send: Page_Down }
-
 paging_with_brackets:
   __append:
     - { when: paging, accept: bracketleft, send: Page_Up }
     - { when: has_menu, accept: bracketright, send: Page_Down }
-
 numbered_mode_switch:
   __append:
     - { when: always, accept: Control+Shift+1, select: .next }
@@ -51,12 +43,10 @@ numbered_mode_switch:
     - { when: always, accept: Control+Shift+numbersign, toggle: full_shape }
     - { when: always, accept: Control+Shift+dollar, toggle: simplification }
     - { when: always, accept: Control+Shift+percent, toggle: extended_charset }
-
 windows_compatible_mode_switch:
   __append:
     - { when: always, accept: Shift+space, toggle: full_shape }
     - { when: always, accept: Control+period, toggle: ascii_punct }
-
 optimized_mode_switch:
   __append:
     - { when: always, accept: Control+Shift+space, select: .next }

@@ -1,41 +1,10 @@
-#請把個人字典放在這#
-#格式：詞語<tab>編碼<tab>詞頻#
-#純中文或英文詞語不用編碼#
-#中英混雜詞語要輸入編碼#
 ---
 name: user
-version: "2018.02.24"
+version: "2023.03.07"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 1
----
-M記	mzu
-M字額	mjdjc
-兩盒Thx	mootthx
-CCTVB	cctvb
-華Dee	tjdee
-G鋒	gcj
-GPhone	gphone
-MC興	mchc
-湯java	ehjava
-殘廁Gathering	miingatherijng
-Kai	kai
-KaiKai地	kaikaigd
-X光	xfu
-γ射線	yhive
-無限loop	ofnvloop
-同朕check下	brbkcheckmz
-E神	eil
-alevel
-ce
-dq
-dse
-gg
-mk
-ocamp
-op
-skr
-BNO
+...
 一撚樣
 一鳩樣
 七仔

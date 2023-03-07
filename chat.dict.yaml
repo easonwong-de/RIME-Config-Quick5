@@ -1,7 +1,6 @@
-
 ---
 name: chat
-version: "2014.09.07"
+version: "2023.03.07"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 1
@@ -6895,5 +6894,3 @@ max_phrase_length: 1
 我相信你說的每一句話
 你怎麼總是自私自利呢
 爲什麼總是弄得不清不楚的
-
-

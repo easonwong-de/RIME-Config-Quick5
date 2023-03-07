@@ -1,48 +1,10 @@
-# Rime dictionary
-# encoding: utf-8
-#
-# Luna Pinyin Extended Dictionary(Chinese Classical Poetry) - 明月拼音擴充詞庫（詩詞）
-#
-#   瑾昀 <cokunhui@gmail.com>
-#
-# Thanks to the following works:
-#
-# * 唐詩三百首
-#   http://cls.hs.yzu.edu.tw/300/ALL/ALLFRAME.htm
-#
-# * 宋詞三百首
-#   http://cls.hs.yzu.edu.tw/Tz300/tz/tz3/tz3.htm
-#
-# * 千家詩
-#   http://www.chinapage.com/big5/poetry/1000p.htm
-#
-# * 花間集
-#   http://www.chineseclassic.com/content/1355
-#
-# * 楚辭
-#   http://www.chineseclassic.com/content/1217
-#
-# * 詩經
-#   雪齋提供底本，瑾昀據《詩經注析》（中華書局版）、《詩經註疏》（四庫全書版）挍對
-#
-# 往後還會繼續尋找質量髙的未被轉成大陸簡化字的原始詩詞語料，抓取或者自行手動錄入竝製作成詞條加入本詞庫。也歡迎大家提供髙質量的詩詞語料（最好由古籍直接電子化所得，謝絕由大陸簡化字文本逆推的僞繁體資料）。
-#
-# 部署位置：
-# ~/.config/ibus/rime  (Linux)
-# ~/Library/Rime  (Mac OS)
-# %APPDATA%\Rime  (Windows)
-#
-# 於重新部署後生效
-#
-
 ---
 name: poetry
-version: "2013.11.21"
+version: "2023.03.07"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 1
 ...
-
 㘅泥鷰
 㠯保真乎
 㴉楊舟於會稽兮

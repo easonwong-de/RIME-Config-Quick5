@@ -1,20 +1,6 @@
-#Rimedictionary
-#encoding:utf-8
-#
-#LunaPinyinExtendedDictionary(Chinese&English)-明月拼音擴充詞庫（含西文的詞彙）
-#
-#瑾昀<cokunhui@gmail.com>
-#
-#部署位置：
-#~/.config/ibus/rime(Linux)
-#~/Library/Rime(MacOS)
-#%APPDATA%\Rime(Windows)
-#
-#於重新部署後生效
-#
 ---
 name: mix
-version: "2018"
+version: "2023.03.07"
 sort: by_weight
 use_preset_vocabulary: false
 ...
@@ -84,4 +70,3 @@ gag	gag	100
 O嘴	rrb	100
 OU都係U	oujlofu	100
 Wi-Fi	wifi	100
-	

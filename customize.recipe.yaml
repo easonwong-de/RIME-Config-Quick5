@@ -1,4 +1,3 @@
-# encoding: utf-8
 ---
 recipe:
   Rx: customize
@@ -13,10 +12,8 @@ recipe:
       - hans
       - hant_char
       - hans_char
-
 install_files: >-
   # grammar.yaml
-
 patch_files:
   ${schema:-quick5}.custom.yaml:
     - patch/+:

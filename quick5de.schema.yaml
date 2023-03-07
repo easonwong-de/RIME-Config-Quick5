@@ -4,22 +4,25 @@
 schema:
   schema_id: quick5de
   name: 德鍵速成
-  version: "1.0"
+  version: "2023.03.07"
   author:
     - 倉頡作者：朱邦復先生
-    - JACKCHAN000@github
+    - JACKCHAN000@GitHub
+    - easonwong-de@GitHub
   description: |
     Rime 速成輸入法
 menu:
   page_size: 9
-
 switches:
   - name: simplification
+    reset: 0
     states: [標準漢字, 规范汉字]
   - name: emoji_suggestion
     reset: 1
     states: [Emoji 關, Emoji 開]
-
+  - name: extended_charset
+    reset: 1
+    states: [通用, 增廣]
 engine:
   processors:
     - recognizer
@@ -39,23 +42,23 @@ engine:
     - punct_translator
     - script_translator
     - table_translator@custom_phrase
-
   filters:
     - simplifier
     - uniquifier
     - simplifier@emoji_suggestion
-
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
-
 translator:
   dictionary: quick5de.extended
   comment_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難符卜～|"
+    - xform/y([a-z]*)/符：\U$1\E/
+    - xlit|abcdefghijklmnopqrstuvwxz'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜・|
+    - xform/符：([A-Z]*)/符：\L$1\E/
   preedit_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz;'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難符卜··|"
-
+    - xform/y([a-z]*)/符：\U$1\E/
+    - xlit|abcdefghijklmnopqrstuvwxz'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜・|
+    - xform/符：([A-Z]*)/符：\L$1\E/
 custom_phrase:
   dictionary: ""
   user_dict: custom_phrase
@@ -63,19 +66,15 @@ custom_phrase:
   enable_completion: false
   enable_sentence: false
   initial_quality: 1
-
 punctuator:
-  import_preset: symbols
-
+  import_preset: symbolsde
 key_binder:
   import_preset: default
-
 recognizer:
   import_preset: default
   patterns:
     email: ^[a-z][-_.0-9a-z]*@.*$
     url: ^(www[.]|https?:|ftp:|mailto:).*$
-
 emoji_suggestion:
   opencc_config: emoji.json
   option_name: emoji_suggestion

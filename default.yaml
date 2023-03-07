@@ -1,12 +1,7 @@
-# Rime default settings
-# encoding: utf-8
-
-config_version: '0.40'
-
+config_version: "0.40"
 schema_list:
   - schema: quick5
   - schema: quick5de
-
 switcher:
   caption: 〔Settings〕
   hotkeys:
@@ -23,17 +18,14 @@ switcher:
     - zh_hant_tw
   fold_options: false
   abbreviate_options: false
-  option_list_separator: '／'
-
+  option_list_separator: "／"
 menu:
   page_size: 9
-
 punctuator:
   full_shape:
     __include: punctuation:/full_shape
   half_shape:
     __include: punctuation:/half_shape
-
 key_binder:
   bindings:
     __patch:
@@ -42,13 +34,11 @@ key_binder:
       - key_bindings:/paging_with_minus_equal
       - key_bindings:/paging_with_comma_period
       - key_bindings:/numbered_mode_switch
-
 recognizer:
   patterns:
     email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
-
 ascii_composer:
   good_old_caps_lock: true
   switch_key:

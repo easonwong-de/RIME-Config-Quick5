@@ -1,7 +1,6 @@
-# Author: Eason Wong
 ---
 name: vietnamese
-version: "2022.06.09"
+version: "2023.03.07"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 1
