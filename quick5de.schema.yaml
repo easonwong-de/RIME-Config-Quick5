@@ -2,79 +2,85 @@
 # encoding: utf-8
 
 schema:
-  schema_id: quick5de
-  name: 德鍵速成
-  version: "2023.03.07"
-  author:
-    - 倉頡作者：朱邦復先生
-    - JACKCHAN000@GitHub
-    - easonwong-de@GitHub
-  description: |
-    Rime 速成輸入法
+    schema_id: quick5de
+    name: 德鍵速成 (macOS)
+    version: "2023.08.12"
+    author:
+        - 倉頡作者：朱邦復先生
+        - JACKCHAN000@GitHub
+        - easonwong-de@GitHub
+    description: Rime 速成輸入法
 menu:
-  page_size: 9
+    page_size: 9
 switches:
-  - name: simplification
-    reset: 0
-    states: [標準漢字, 规范汉字]
-  - name: emoji_suggestion
-    reset: 1
-    states: [Emoji 關, Emoji 開]
-  - name: extended_charset
-    reset: 1
-    states: [通用, 增廣]
+    - name: simplification
+      reset: 0
+      states: [傳統漢字, 规范汉字]
+    - name: emoji_suggestion
+      reset: 1
+      states: [Emoji 關, Emoji 開]
+    - name: japan_shinjitai
+      reset: 0
+      states: [舊字體, 新字体]
+    - name: extended_charset
+      reset: 1
+      states: [通用, 增廣]
 engine:
-  processors:
-    - recognizer
-    - key_binder
-    - speller
-    - punctuator
-    - selector
-    - navigator
-    - express_editor
-  segmentors:
-    - ascii_segmentor
-    - matcher
-    - abc_segmentor
-    - punct_segmentor
-    - fallback_segmentor
-  translators:
-    - punct_translator
-    - script_translator
-    - table_translator@custom_phrase
-  filters:
-    - simplifier
-    - uniquifier
-    - simplifier@emoji_suggestion
+    processors:
+        - recognizer
+        - key_binder
+        - speller
+        - punctuator
+        - selector
+        - navigator
+        - express_editor
+    segmentors:
+        - ascii_segmentor
+        - matcher
+        - abc_segmentor
+        - punct_segmentor
+        - fallback_segmentor
+    translators:
+        - punct_translator
+        - script_translator
+        - table_translator@custom_phrase
+    filters:
+        - simplifier
+        - uniquifier
+        - simplifier@emoji_suggestion
+        - simplifier@japan_shinjitai
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba
-  delimiter: " '"
+    alphabet: zyxwvutsrqponmlkjihgfedcba
+    delimiter: " '"
 translator:
-  dictionary: quick5de.extended
-  comment_format:
-    - xform/y([a-z]*)/符：\U$1\E/
-    - xlit|abcdefghijklmnopqrstuvwxz'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜・|
-    - xform/符：([A-Z]*)/符：\L$1\E/
-  preedit_format:
-    - xform/y([a-z]*)/符：\U$1\E/
-    - xlit|abcdefghijklmnopqrstuvwxz'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜・|
-    - xform/符：([A-Z]*)/符：\L$1\E/
+    dictionary: quick5de.extended
+    comment_format:
+        - xform/y([a-z]*)/符：\U$1\E/
+        - xlit|abcdefghijklmnopqrstuvwxz'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜・|
+        - xform/符：([A-Z]*)/符：\L$1\E/
+    preedit_format:
+        - xform/y([a-z]*)/符：\U$1\E/
+        - xlit|abcdefghijklmnopqrstuvwxz'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜・|
+        - xform/符：([A-Z]*)/符：\L$1\E/
 custom_phrase:
-  dictionary: ""
-  user_dict: custom_phrase
-  db_class: stabledb
-  enable_completion: false
-  enable_sentence: false
-  initial_quality: 1
+    dictionary: ""
+    user_dict: custom_phrase
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 1
 punctuator:
-  import_preset: symbolsde
+    import_preset: symbolsde
 key_binder:
-  import_preset: default
+    import_preset: default
 recognizer:
-  import_preset: default
-  patterns:
-    email: ^[a-z][-_.0-9a-z]*@.*$
-    url: ^(www[.]|https?:|ftp:|mailto:).*$
+    import_preset: default
+    patterns:
+        email: ^[a-z][-_.0-9a-z]*@.*$
+        url: ^(www[.]|https?:|ftp:|mailto:).*$
 emoji_suggestion:
-  opencc_config: emoji.json
-  option_name: emoji_suggestion
+    opencc_config: emoji.json
+    option_name: emoji_suggestion
+japan_shinjitai:
+    opencc_config: t2jp.json
+    option_name: japan_shinjitai
