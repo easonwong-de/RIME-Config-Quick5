@@ -3,12 +3,12 @@ Cofiguration of RIME for typing Sucheng (速成) on Englich or German keyboard.
 
 ## How To Use 英鍵速成, 德鍵速成 (macOS), and 德鍵速成 (Windows)
 
-If you don't only have a physical English keyboard, please always choose <code>英鍵速成</code>.  
+If you only have a physical English keyboard, please always choose <code>英鍵速成</code>.  
 Press <code>control + `</code> or <code>F4</code> to switch between <code>英鍵速成</code>, <code>德鍵速成 (macOS)</code>, and <code>德鍵速成 (Windows)</code>.
 
 ### macOS
 
-On macOS, RIME uses the keyboard layout of the last selected alphabetical keyboard layout. Make sure the last selected alphabetical keyboard layout matches the physical one, and chose <code>英鍵速成</code> or <code>德鍵速成 (macOS)</code> according to the keyboard layout.
+On macOS, RIME uses the keyboard layout of the last selected alphabetical input source. Make sure the last selected alphabetical keyboard layout matches the physical one, and chose <code>英鍵速成</code> or <code>德鍵速成 (macOS)</code> according to the keyboard layout.
 
 ### Windows
 
