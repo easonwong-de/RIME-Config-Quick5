@@ -1,22 +1,63 @@
-# Rime.config
-Cofiguration of RIME for typing Sucheng (速成) on Englich or German keyboard.
+# RIME-Config-Quick5
 
-## How To Use 英鍵速成, 德鍵速成 (macOS), and 德鍵速成 (Windows)
+A RIME configuration for typing Quick5 (速成) efficiently.
 
-If you only have a physical English keyboard, please always choose <code>英鍵速成</code>.  
-Press <code>control + `</code> or <code>F4</code> to switch between <code>英鍵速成</code>, <code>德鍵速成 (macOS)</code>, and <code>德鍵速成 (Windows)</code>.
+## Overview
 
-### macOS
+This configuration enables **continuous Quick5 typing** (“速成連打”), allowing you to type words and phrases fluidly without selecting individual characters after each code. It also supports both **English (US)** and **German (DE)** keyboard layouts and extends Quick5 typing to cover **Japanese Kokuji**, **Korean Gukja**, and **Vietnamese Chữ Nôm** characters.
 
-On macOS, RIME uses the keyboard layout of the last selected alphabetical input source. Make sure the last selected alphabetical keyboard layout matches the physical one, and chose <code>英鍵速成</code> or <code>德鍵速成 (macOS)</code> according to the keyboard layout.
+## Installation
 
-### Windows
+To use this configuration:
 
-On Windows, RIME always uses English keyboard layout. If you have a physical German keyboard, please use <code>德鍵速成 (Windows)</code>.
+1. Install a [RIME](https://github.com/rime) version that fits your operating system.
 
-## Misc.
+2. Clone or download this repository.
 
-Including Cantonese, Hakka, and Vietnamese (Chữ Nôm) vocabularies.  
-Japanese Kana, Korean Hangul, Bopomofo, and Greek alphabet are available via symbol hotkey <code>符</code>.
+3. Copy the contents of the [`./config`](config) directory into RIME’s user configuration folder:
 
-<img width="446" src="https://user-images.githubusercontent.com/16183548/234175823-537ceffd-1367-4c2c-8fc7-11d877f0eb94.png">
+    - On macOS: `~/Library/Rime/`
+    - On Windows: `C:\Users\<your-username>\AppData\Roaming\Rime`
+
+4. Launch RIME’s settings menu and select “Deploy” to apply the configuration.
+
+## Features
+
+-   **Continuous Typing (“速成連打”)**
+    Unlike traditional Quick5 setups where you must confirm each character individually, this configuration supports uninterrupted typing—words and phrases are automatically composed as you type.
+
+	<img width="50%" src="./assets/screenshot-continuous-typing.jpeg">
+
+-   **Multi-Language Keyboard Support**
+    Works with both English (US) and German (DE) physical keyboard layouts. See [Keyboard Layout Selection](#keyboard-layout-selection) for details.
+
+	<img width="50%" src="./assets/screenshot-multi-language-support.jpeg">
+
+-   **Extended Character Support**
+    Most Chinese characters are supported, as well as many Japanese Kokuji, Korean Gukja, and Vietnamese Chữ Nôm using the Quick5 code.
+
+	<img width="50%" src="./assets/screenshot-extended-char-support.jpeg">
+
+-   **Additional Scripts**
+    Japanese Kana, Korean Hangul, Bopomofo, and Greek letters can be typed using the symbol hotkey `符`.
+
+	<img width="50%" src="./assets/screenshot-additional-scripts.jpeg">
+
+## Keyboard Layout Selection
+
+To switch between layouts, press `F4` in RIME. The following input methods are available:
+
+-   `英鍵速成` – for English (US) keyboard
+-   `德鍵速成 (macOS)` – for German keyboard on macOS
+-   `德鍵速成 (Windows)` – for German keyboard on Windows
+
+### macOS Users
+
+RIME on macOS uses the keyboard layout of your **last selected alphabetical input source**. Ensure it matches your physical keyboard. Then choose the appropriate layout:
+
+-   English keyboard → `英鍵速成`
+-   German keyboard → `德鍵速成 (macOS)`
+
+### Windows Users
+
+RIME on Windows always assumes an English keyboard layout. If you use a German physical keyboard, select `德鍵速成 (Windows)` for correct mapping.
