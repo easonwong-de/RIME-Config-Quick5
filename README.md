@@ -34,7 +34,7 @@ To use this configuration:
 	<img width="50%" src="./assets/screenshot-multi-language-support.jpeg">
 
 -   **Extended Character Support**
-    Most Chinese characters are supported, as well as many Japanese Kokuji, Korean Gukja, and Vietnamese Chữ Nôm using the Quick5 code.
+    Most Chinese characters are supported, as well as many Japanese Kokuji, Korean Gukja, and Vietnamese Chữ Nôm can be typed out using Quick5.
 
 	<img width="50%" src="./assets/screenshot-extended-char-support.jpeg">
 
