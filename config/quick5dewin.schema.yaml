@@ -4,7 +4,7 @@
 schema:
     schema_id: quick5dewin
     name: 德鍵速成 (Windows)
-    version: "2023.08.12"
+    version: "2025.12.10"
     author:
         - 倉頡作者：朱邦復先生
         - JACKCHAN000@GitHub
@@ -13,18 +13,12 @@ schema:
 menu:
     page_size: 9
 switches:
-    - name: simplification
-      reset: 0
-      states: [傳統漢字, 规范汉字]
+    - options: [zh_trad, simplification, japan_shinjitai]
+      states: [傳統漢字, 规范汉字, 日本新字]
     - name: emoji_suggestion
       reset: 1
-      states: [Emoji 關, Emoji 開]
-    - name: japan_shinjitai
-      reset: 0
-      states: [舊字體, 新字体]
     - name: extended_charset
       reset: 1
-      states: [通用, 增廣]
 engine:
     processors:
         - recognizer
@@ -35,7 +29,6 @@ engine:
         - navigator
         - express_editor
     segmentors:
-        - ascii_segmentor
         - matcher
         - abc_segmentor
         - punct_segmentor
@@ -75,9 +68,6 @@ key_binder:
     import_preset: default
 recognizer:
     import_preset: default
-    patterns:
-        email: ^[a-z][-_.0-9a-z]*@.*$
-        url: ^(www[.]|https?:|ftp:|mailto:).*$
 emoji_suggestion:
     opencc_config: emoji.json
     option_name: emoji_suggestion
