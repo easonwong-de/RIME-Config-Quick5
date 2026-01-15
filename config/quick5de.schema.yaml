@@ -48,12 +48,19 @@ speller:
 translator:
     dictionary: quick5de.extended
     comment_format:
-        - xform/y([a-z]*)/符：\U$1\E/
-        - xlit|abcdefghijklmnopqrstuvwxz'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜・|
+        - xform/z([a-z]*)/符：\U$1\E/
+        - xlit|abcdefghijklmnopqrstuvwxy'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜・|
+        - xform/符：([^Z]*[ZY][^Z]*)/$1/
+        - xform/(?<=符：)(.*)Z(.*)/$1@$2/
+        - xform/(?<=符：)(.*)Y(.*)/$1Z$2/
+        - xform/(?<=符：)(.*)@(.*)/$1Y$2/
         - xform/符：([A-Z]*)/符：\L$1\E/
     preedit_format:
-        - xform/y([a-z]*)/符：\U$1\E/
-        - xlit|abcdefghijklmnopqrstuvwxz'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜・|
+        - xform/z([a-z]*)/符：\U$1\E/
+        - xlit|abcdefghijklmnopqrstuvwxy'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜・|
+        - xform/(?<=符：)(.*)Z(.*)/$1@$2/
+        - xform/(?<=符：)(.*)Y(.*)/$1Z$2/
+        - xform/(?<=符：)(.*)@(.*)/$1Y$2/
         - xform/符：([A-Z]*)/符：\L$1\E/
 custom_phrase:
     dictionary: ""
