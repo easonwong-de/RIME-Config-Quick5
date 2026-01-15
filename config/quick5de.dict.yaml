@@ -1,6 +1,6 @@
 ---
 name: "quick5de"
-version: "2023.03.07"
+version: "2026.01.15"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -279,6 +279,7 @@ min_phrase_weight: 100
 𡎝	gk
 𠱋	rw
 ㇶ	p
+𬷤	bf
 𠝹	wn
 𢃇	lg
 𨶙	ap

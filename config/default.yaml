@@ -1,15 +1,13 @@
-config_version: "2025.12.10"
+config_version: "2026.01.15"
 schema_list:
     - schema: quick5
     - schema: quick5de
-    - schema: quick5dewin
 switcher:
     caption: 〔設定〕
     hotkeys:
         - Control+grave
         - Control+Shift+grave
         - F4
-        - F2
     save_options:
         - zh_trad
         - simplification

@@ -3,13 +3,13 @@
 
 schema:
     schema_id: quick5de
-    name: 德鍵速成 (macOS)
-    version: "2025.12.10"
+    name: 德鍵速成
+    version: "2026.01.15"
     author:
         - 倉頡作者：朱邦復先生
         - JACKCHAN000@GitHub
         - easonwong-de@GitHub
-    description: Rime 速成輸入法
+    description: RIME 速成輸入法
 menu:
     page_size: 9
 switches:
