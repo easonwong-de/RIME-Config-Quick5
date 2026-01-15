@@ -48,16 +48,4 @@ To use this configuration:
 To switch between layouts, press `F4` in RIME. The following input methods are available:
 
 -   `英鍵速成` – for English (US) keyboard
--   `德鍵速成 (macOS)` – for German keyboard on macOS
--   `德鍵速成 (Windows)` – for German keyboard on Windows
-
-### macOS Users
-
-RIME on macOS uses the keyboard layout of your **last selected alphabetical input source**. Ensure it matches your physical keyboard. Then choose the appropriate layout:
-
--   English keyboard → `英鍵速成`
--   German keyboard → `德鍵速成 (macOS)`
-
-### Windows Users
-
-RIME on Windows always assumes an English keyboard layout. If you use a German physical keyboard, select `德鍵速成 (Windows)` for correct mapping.
+-   `德鍵速成` – for German keyboard
