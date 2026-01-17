@@ -15,7 +15,6 @@ To use this configuration:
 2. Clone or download this repository.
 
 3. Copy the contents of the [`./config`](config) directory into RIME’s user configuration folder:
-
     - On macOS: `~/Library/Rime/`
     - On Windows: `C:\Users\<your-username>\AppData\Roaming\Rime`
 
@@ -23,29 +22,32 @@ To use this configuration:
 
 ## Features
 
--   **Continuous Typing (“速成連打”)**
-    Unlike traditional Quick5 setups where you must confirm each character individually, this configuration supports uninterrupted typing—words and phrases are automatically composed as you type.
+- **Continuous Typing (“速成連打”)**
+  Unlike traditional Quick5 setups where you must confirm each character individually, this configuration supports uninterrupted typing—words and phrases are automatically composed as you type.
 
-	<img width="50%" src="./assets/screenshot-continuous-typing.jpeg">
+    <img width="50%" src="./assets/screenshot_1.png">
 
--   **Multi-Language Keyboard Support**
-    Works with both English (US) and German (DE) physical keyboard layouts. See [Keyboard Layout Selection](#keyboard-layout-selection) for details.
+- **Multi-Language Keyboard Support**
+  Supports **English (US)** and **German** layouts (affecting punctuation only, not the Quick5 arrangement). Switch via `F4`: select `英鍵速成` for US or `德鍵速成` for German keyboards.
 
-	<img width="50%" src="./assets/screenshot-multi-language-support.jpeg">
+    <img width="50%" src="./assets/screenshot_2.png">
 
--   **Extended Character Support**
-    Most Chinese characters are supported, as well as many Japanese Kokuji, Korean Gukja, and Vietnamese Chữ Nôm can be typed out using Quick5.
+- **Extended Character Support**
+  Most Chinese characters are supported, as well as many Japanese Kokuji, Korean Gukja, and Vietnamese Chữ Nôm can be typed out using Quick5.
 
-	<img width="50%" src="./assets/screenshot-extended-char-support.jpeg">
+    <img width="50%" src="./assets/screenshot_3.png">
 
--   **Additional Scripts**
-    Japanese Kana, Korean Hangul, Bopomofo, and Greek letters can be typed using the symbol hotkey `符`.
+- **Additional Scripts**
+  Japanese Kana, Korean Hangul, Bopomofo, and Greek letters can be typed using the symbol hotkey `符`.
 
-	<img width="50%" src="./assets/screenshot-additional-scripts.jpeg">
+    <img width="50%" src="./assets/screenshot_4.png">
 
-## Keyboard Layout Selection
+- **Emoji Suggestions**
+  Type emojis easily using Chinese keywords. Powered by [rime-emoji](https://github.com/drsmile1001/rime-emoji).
 
-To switch between layouts, press `F4` in RIME. The following input methods are available:
+    <img width="50%" src="./assets/screenshot_5.png">
 
--   `英鍵速成` – for English (US) keyboard
--   `德鍵速成` – for German keyboard
+- **Character Conversion**
+  Easily toggle conversion to Simplified Chinese or Japanese Shinjitai via the `F4` menu.
+
+    <img width="50%" src="./assets/screenshot_6.png">
