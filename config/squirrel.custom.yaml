@@ -5,7 +5,7 @@ patch:
         border_height: 2.0
         border_width: 2.0
         candidate_list_layout: linear
-        color_scheme: aqua
+        color_scheme: macos_light
         color_scheme_dark: macos_dark
         comment_font_face: "SF Pro"
         comment_font_point: 13.0
@@ -18,18 +18,17 @@ patch:
         label_font_point: 13.0
         text_orientation: horizontal
     preset_color_schemes:
-        aqua:
-            author: 佛振 <chen.sst@gmail.com>
-            back_color: "0xEEECEEEE"
-            candidate_text_color: "0x000000"
+        macos_light:
+            author: "easonwong-de@GitHub"
+            back_color: 0xEEECEE
+            candidate_text_color: 0x000000
             color_space: srgb
-            comment_text_color: "0x5A5A5A"
-            hilited_candidate_back_color: "0xEEFA3A0A"
-            hilited_candidate_text_color: "0xFFFFFF"
-            hilited_comment_text_color: "0xFCAC9D"
-            hilited_text_color: "0x000000"
-            name: 碧水／Aqua
-            text_color: "0x606060"
+            comment_text_color: 0x5A5A5A
+            hilited_candidate_back_color: 0xFF7A00
+            hilited_candidate_text_color: 0xFFFFFF
+            hilited_comment_text_color: 0xFCAC9D
+            hilited_text_color: 0x000000
+            text_color: 0x606060
         macos_dark:
             author: "easonwong-de@GitHub"
             back_color: 0x1E1E1E
