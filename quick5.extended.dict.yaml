@@ -4,10 +4,16 @@ version: "2026.08.11"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
-  - cangjie5
+  - cangjie5.base
+  - cangjie5.extended
   - hakka
   - hangyl
   - hongkong
+  - jyut6ping3.chars
+  - jyut6ping3.lettered
+  - jyut6ping3.maps
+  - jyut6ping3.phrase
+  - jyut6ping3.words
   - luna_pinyin.extended
   - quick5.eason
   - quick5.supplement
