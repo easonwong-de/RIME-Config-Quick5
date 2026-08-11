@@ -1,0 +1,25 @@
+{
+  "name": "Emoji (Eason)",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "emoji_eason.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "group",
+      "dicts": [
+        {
+          "type": "text",
+          "file": "emoji_eason.txt"
+        },
+        {
+          "type": "text",
+          "file": "emoji.txt"
+        }
+      ]
+    }
+  }]
+}

@@ -1,0 +1,33 @@
+---
+recipe:
+  rx: quick5-eason
+  description: Quick5 (速成) input schema recipe with extended dictionaries
+install_files:
+  - default.yaml
+  - key_bindings.yaml
+  - punctuation.yaml
+  - quick5.schema.yaml
+  - quick5de.schema.yaml
+  - quick5.extended.dict.yaml
+  - quick5de.extended.dict.yaml
+  - quick5.eason.dict.yaml
+  - quicksymbols.dict.yaml
+  - quicksymbolsde.dict.yaml
+  - hakka.dict.yaml
+  - hangyl.dict.yaml
+  - hangylde.dict.yaml
+  - hongkong.dict.yaml
+  - symbols.yaml
+  - symbolsde.yaml
+  - vietnamese.dict.yaml
+  - opencc/emoji_eason.json
+  - opencc/emoji_eason.txt
+  - squirrel.custom.yaml
+  - weasel.custom.yaml
+  - quick5.custom.yaml
+  - quick5de.custom.yaml
+patch_files:
+  default.custom.yaml:
+    - patch/schema_list/+:
+        - schema: quick5
+        - schema: quick5de

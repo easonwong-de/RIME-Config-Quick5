@@ -45,6 +45,8 @@ engine:
 speller:
     alphabet: zyxwvutsrqponmlkjihgfedcba
     delimiter: " '"
+    algebra:
+        - derive/^([a-z]).+([a-z])$/$1$2/
 translator:
     dictionary: quick5.extended
     comment_format:
@@ -69,7 +71,7 @@ key_binder:
 recognizer:
     import_preset: default
 emoji_suggestion:
-    opencc_config: emoji.json
+    opencc_config: emoji_eason.json
     option_name: emoji_suggestion
 japan_shinjitai:
     opencc_config: t2jp.json

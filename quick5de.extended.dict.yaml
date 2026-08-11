@@ -1,0 +1,15 @@
+---
+name: quick5de.extended
+version: "2026.08.11"
+sort: by_weight
+use_preset_vocabulary: true
+import_tables:
+  - cangjie5
+  - quick5.supplement
+  - quick5.eason
+  - hakka
+  - hangylde
+  - hongkong
+  - quicksymbolsde
+  - vietnamese
+  - luna_pinyin.extended
