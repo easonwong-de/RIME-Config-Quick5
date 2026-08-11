@@ -6,6 +6,8 @@ use_preset_vocabulary: true
 import_tables:
   - cangjie5.base
   - cangjie5.extended
+  - quick5.supplement
+  - quick5.eason
   - hakka
   - hangyl
   - hongkong
@@ -15,7 +17,5 @@ import_tables:
   - jyut6ping3.phrase
   - jyut6ping3.words
   - luna_pinyin.extended
-  - quick5.eason
-  - quick5.supplement
   - quicksymbols
   - vietnamese
