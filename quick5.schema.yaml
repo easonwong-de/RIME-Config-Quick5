@@ -15,10 +15,6 @@ menu:
 switches:
   - options: [zh_trad, simplification, japan_shinjitai]
     states: [傳統漢字, 规范汉字, 日本新字]
-  - name: emoji_suggestion
-    reset: 1
-  - name: extended_charset
-    reset: 1
 engine:
   processors:
     - recognizer
@@ -39,21 +35,24 @@ engine:
     - table_translator@custom_phrase
   filters:
     - simplifier
-    - uniquifier
     - simplifier@emoji_suggestion
     - simplifier@japan_shinjitai
+    - uniquifier
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
+  max_code_length: 2
   algebra:
-    - derive/^([a-z]).+([a-z])$/$1$2/
+    - xform/^([a-z]).+([a-z])$/$1$2/
 translator:
   dictionary: quick5.extended
-  enable_charset_filter: true
+  enable_charset_filter: false
   enable_sentence: true
   enable_encoder: true
   encode_commit_history: true
+  enable_completion: false
   max_phrase_length: 5
+  vocabulary: essay-cantonese
   comment_format:
     - xform/z([a-z]*)/符：\U$1\E/
     - xlit|abcdefghijklmnopqrstuvwxy'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜・|
@@ -77,7 +76,6 @@ recognizer:
   import_preset: default
 emoji_suggestion:
   opencc_config: emoji_eason.json
-  option_name: emoji_suggestion
 japan_shinjitai:
   opencc_config: t2jp.json
   option_name: japan_shinjitai
