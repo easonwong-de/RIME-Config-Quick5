@@ -19,6 +19,7 @@ bash rime-install cangjie quick emoji cantonese Iorest/rime-dict easonwong-de/ri
 ```
 
 This installs all required upstream dependencies alongside this recipe:
+
 - [rime-quick](https://github.com/rime/rime-quick) (base Quick5 dictionary and assets)
 - [rime-cangjie](https://github.com/rime/rime-cangjie) (Cangjie 5 dictionary)
 - [rime-emoji](https://github.com/rime/rime-emoji) (Emoji OpenCC converter)

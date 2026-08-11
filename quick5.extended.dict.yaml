@@ -5,11 +5,11 @@ sort: by_weight
 use_preset_vocabulary: true
 import_tables:
   - cangjie5
-  - quick5.supplement
-  - quick5.eason
   - hakka
   - hangyl
   - hongkong
+  - luna_pinyin.extended
+  - quick5.eason
+  - quick5.supplement
   - quicksymbols
   - vietnamese
-  - luna_pinyin.extended
