@@ -28,6 +28,6 @@ install_files:
     - quick5de.custom.yaml
 patch_files:
     default.custom.yaml:
-        - patch/schema_list/+:
-              - schema: quick5
-              - schema: quick5de
+        patch/schema_list/+:
+            - schema: quick5
+            - schema: quick5de
