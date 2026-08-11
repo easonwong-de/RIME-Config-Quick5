@@ -1,5 +1,5 @@
 {
-  "name": "Emoji (Eason)",
+  "name": "Chinese to Emoji (Eason)",
   "segmentation": {
     "type": "mmseg",
     "dict": {
@@ -10,16 +10,16 @@
   "conversion_chain": [{
     "dict": {
       "type": "group",
-      "dicts": [
-        {
-          "type": "text",
-          "file": "emoji_eason.txt"
-        },
-        {
-          "type": "text",
-          "file": "emoji.txt"
-        }
-      ]
+      "dicts": [{
+        "type": "text",
+        "file": "emoji_eason.txt"
+      }, {
+        "type": "text",
+        "file": "emoji_word.txt"
+      }, {
+        "type": "text",
+        "file": "emoji_category.txt"
+      }]
     }
   }]
 }

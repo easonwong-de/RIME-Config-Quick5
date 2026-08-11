@@ -15,6 +15,8 @@ menu:
 switches:
   - options: [zh_trad, simplification, japan_shinjitai]
     states: [傳統漢字, 规范汉字, 日本新字]
+  - name: emoji_suggestion
+    reset: 1
 engine:
   processors:
     - recognizer
@@ -41,9 +43,8 @@ engine:
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
-  max_code_length: 2
   algebra:
-    - xform/^([a-z]).+([a-z])$/$1$2/
+    - derive/^([a-z]).+([a-z])$/$1$2/
 translator:
   dictionary: quick5de.extended
   enable_charset_filter: false
@@ -83,6 +84,7 @@ recognizer:
   import_preset: default
 emoji_suggestion:
   opencc_config: emoji_eason.json
+  option_name: emoji_suggestion
 japan_shinjitai:
   opencc_config: t2jp.json
   option_name: japan_shinjitai
