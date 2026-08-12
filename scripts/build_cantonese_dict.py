@@ -54,7 +54,7 @@ def main():
 name: cantonese
 version: "{today}"
 sort: by_weight
-use_preset_vocabulary: false
+use_preset_vocabulary: true
 ...
 """
     output_path = "cantonese.dict.yaml"

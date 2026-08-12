@@ -2,7 +2,7 @@
 name: hongkong
 version: "2026.08.12"
 sort: by_weight
-use_preset_vocabulary: false
+use_preset_vocabulary: true
 ...
 一撚樣
 一鳩樣

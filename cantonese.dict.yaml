@@ -2,7 +2,7 @@
 name: cantonese
 version: "2026.08.12"
 sort: by_weight
-use_preset_vocabulary: false
+use_preset_vocabulary: true
 ...
 㓟皮
 㓟菠蘿皮
