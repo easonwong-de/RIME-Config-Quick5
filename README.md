@@ -15,16 +15,14 @@ Install this recipe and its dependencies using [plum](https://github.com/rime/pl
 bash rime-install easonwong-de/rime-config-quick5/quick5-packages.conf
 
 # Option 2: Install specifying packages explicitly
-bash rime-install cangjie quick emoji cantonese Iorest/rime-dict easonwong-de/rime-config-quick5:install
+bash rime-install cangjie quick emoji essay easonwong-de/rime-config-quick5:install
 ```
 
 This installs all required upstream dependencies alongside this recipe:
-
 - [rime-quick](https://github.com/rime/rime-quick) (base Quick5 dictionary and assets)
 - [rime-cangjie](https://github.com/rime/rime-cangjie) (Cangjie 5 dictionary)
 - [rime-emoji](https://github.com/rime/rime-emoji) (Emoji OpenCC converter)
-- [rime-cantonese](https://github.com/rime/rime-cantonese) (Cantonese vocabulary)
-- [rime-dict](https://github.com/Iorest/rime-dict) (Extended community dictionaries via `luna_pinyin.extended`)
+- [rime-essay](https://github.com/rime/rime-essay) (Standard Chinese phrase language model)
 
 After installation, launch RIME’s settings menu (or trigger your frontend's deployment) to apply the configuration.
 

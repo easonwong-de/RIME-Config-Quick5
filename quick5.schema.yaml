@@ -48,7 +48,6 @@ speller:
 translator:
   dictionary: quick5.extended
   prism: quick5
-  vocabulary: essay-cantonese
   comment_format:
     - xform/z([a-z]*)/符：\U$1\E/
     - xlit|abcdefghijklmnopqrstuvwxy'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜・|
