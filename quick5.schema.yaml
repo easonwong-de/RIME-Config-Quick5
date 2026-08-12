@@ -44,7 +44,7 @@ speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-    - derive/^([a-z]).+([a-z])$/$1$2/
+    - xform/^([a-y]).+([a-z])$/$1$2/
 translator:
   dictionary: quick5.extended
   prism: quick5
