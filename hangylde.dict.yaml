@@ -1,8 +1,8 @@
 ---
-name: hangzlde
+name: hangylde
 version: "2026.01.15"
-sort: bz_weight
-use_preset_vocabularz: false
+sort: by_weight
+use_preset_vocabulary: false
 ...
 ㄱ	zg
 가	zga
