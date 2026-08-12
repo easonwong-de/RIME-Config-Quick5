@@ -44,6 +44,7 @@ speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
+    - erase/^z$/
     - xform/^([a-y]).+([a-z])$/$1$2/
 translator:
   dictionary: quick5.extended
