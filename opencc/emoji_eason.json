@@ -18,6 +18,9 @@
         "file": "emoji_word.txt"
       }, {
         "type": "text",
+        "file": "emoji_cantonese.txt"
+      }, {
+        "type": "text",
         "file": "emoji_category.txt"
       }]
     }
