@@ -14,6 +14,7 @@ install_files:
   - quicksymbols.dict.yaml
   - quicksymbolsde.dict.yaml
   - hakka.dict.yaml
+  - cantonese.dict.yaml
   - hangyl.dict.yaml
   - hangylde.dict.yaml
   - hongkong.dict.yaml

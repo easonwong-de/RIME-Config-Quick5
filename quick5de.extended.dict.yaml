@@ -6,6 +6,7 @@ use_preset_vocabulary: true
 import_tables:
   - cangjie5.base
   - cangjie5.extended
+  - cantonese
   - hakka
   - hangylde
   - hongkong
