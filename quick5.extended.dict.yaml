@@ -1,8 +1,8 @@
 ---
 name: quick5.extended
-version: "2026.08.11"
+version: "2026.08.12"
 sort: by_weight
-use_preset_vocabulary: true
+use_preset_vocabulary: false
 import_tables:
   - cangjie5.base
   - cangjie5.extended

@@ -1,9 +1,8 @@
 ---
 name: vietnamese
-version: "2023.03.07"
+version: "2026.08.12"
 sort: by_weight
-use_preset_vocabulary: true
-max_phrase_length: 1
+use_preset_vocabulary: false
 ...
 𧵑終
 𧵑公
