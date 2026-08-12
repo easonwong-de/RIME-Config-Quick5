@@ -1,0 +1,33 @@
+---
+name: quick5de.extended
+version: "2026.08.11"
+sort: by_weight
+use_preset_vocabulary: true
+import_tables:
+  - cangjie5.base
+  - cangjie5.extended
+  - hakka
+  - hangylde
+  - hongkong
+  - luna_pinyin.anime
+  - luna_pinyin.chat
+  - luna_pinyin.classical
+  - luna_pinyin.computer
+  - luna_pinyin.daily
+  - luna_pinyin.diet
+  - luna_pinyin.game
+  - luna_pinyin.hanyu
+  - luna_pinyin.history
+  - luna_pinyin.idiom
+  - luna_pinyin.movie
+  - luna_pinyin.music
+  - luna_pinyin.name
+  - luna_pinyin.net
+  - luna_pinyin.poetry
+  - luna_pinyin.practical
+  - luna_pinyin.sougou
+  - luna_pinyin.website
+  - quick5.eason
+  - quick5.supplement
+  - quicksymbolsde
+  - vietnamese
