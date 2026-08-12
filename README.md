@@ -11,11 +11,7 @@ This configuration enables **continuous Quick5 typing** (“速成連打”), al
 Install this recipe and its dependencies using [plum](https://github.com/rime/plum) (`rime-install`):
 
 ```bash
-# Option 1: Install full package suite (dependencies + quick5-eason recipe)
-bash rime-install easonwong-de/rime-config-quick5/quick5-packages.conf
-
-# Option 2: Install specifying packages explicitly
-bash rime-install cangjie quick emoji essay easonwong-de/rime-config-quick5:install
+bash rime-install cangjie quick emoji essay Iorest/rime-dict easonwong-de/rime-config-quick5:install
 ```
 
 This installs all required upstream dependencies alongside this recipe:
@@ -23,6 +19,7 @@ This installs all required upstream dependencies alongside this recipe:
 - [rime-cangjie](https://github.com/rime/rime-cangjie) (Cangjie 5 dictionary)
 - [rime-emoji](https://github.com/rime/rime-emoji) (Emoji OpenCC converter)
 - [rime-essay](https://github.com/rime/rime-essay) (Standard Chinese phrase language model)
+- [rime-dict](https://github.com/Iorest/rime-dict) (Extended Chinese phrase dictionary)
 
 After installation, launch RIME’s settings menu (or trigger your frontend's deployment) to apply the configuration.
 
