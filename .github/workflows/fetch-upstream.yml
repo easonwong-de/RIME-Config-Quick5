@@ -1,0 +1,28 @@
+name: Fetch Upstream Cantonese Dictionaries
+
+on:
+  schedule:
+    - cron: "0 0 1 * *"
+  workflow_dispatch:
+
+jobs:
+  update-cantonese-dict:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Fetch and compile Cantonese dictionary
+        run: python scripts/build_cantonese_dict.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add cantonese.dict.yaml
+          git diff --quiet && git diff --staged --quiet || (git commit -m "update: sync cantonese dictionary from upstream" && git push)
