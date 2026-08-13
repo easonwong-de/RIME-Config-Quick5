@@ -1,4 +1,4 @@
-# RIME-Config-Quick5 (℞ quick5-eason)
+# RIME-Eason-Quick5
 
 A RIME plum recipe and configuration for typing Quick5 (速成) efficiently.
 
@@ -8,13 +8,16 @@ This configuration enables **continuous Quick5 typing** (“速成連打”), al
 
 ## Installation via Plum
 
+Recipe: ℞ **easonwong-de/rime-eason-quick5**
+
 Install this recipe and its dependencies using [plum](https://github.com/rime/plum) (`rime-install`):
 
 ```bash
-bash rime-install cangjie quick emoji emoji-cantonese essay Iorest/rime-dict easonwong-de/rime-config-quick5:install
+bash rime-install cangjie quick emoji emoji-cantonese essay Iorest/rime-dict easonwong-de/rime-eason-quick5:install
 ```
 
 This installs all required upstream dependencies alongside this recipe:
+
 - [rime-quick](https://github.com/rime/rime-quick) (base Quick5 dictionary and assets)
 - [rime-cangjie](https://github.com/rime/rime-cangjie) (Cangjie 5 dictionary)
 - [rime-emoji](https://github.com/rime/rime-emoji) (Emoji OpenCC converter)
@@ -55,3 +58,7 @@ After installation, launch RIME’s settings menu (or trigger your frontend's de
   Easily toggle conversion to Simplified Chinese or Japanese Shinjitai via the `F4` menu.
 
   <img width="50%" src="./assets/screenshot_6.png">
+
+## Vocabulary Sources
+
+- Cantonese dictionary vocabulary sourced from [CanCLID/rime-cantonese-upstream](https://github.com/CanCLID/rime-cantonese-upstream).
