@@ -50,9 +50,9 @@ After installation, launch RIME’s settings menu (or trigger your frontend's de
   Single-letter Cangjie radical emojis work out of the box. To enable full keyword suggestions:
 
   ```bash
-  bash rime-install emoji rime-emoji-cantonese
-  bash rime-install emoji:customize:schema=quick5 rime-emoji-cantonese:emoji_cantonese:schema=quick5
-  bash rime-install emoji:customize:schema=quick5de rime-emoji-cantonese:emoji_cantonese:schema=quick5de
+  bash rime-install emoji
+  bash rime-install emoji:customize:schema=quick5
+  bash rime-install emoji:customize:schema=quick5de
   ```
 
   <img width="50%" src="./assets/screenshot_5.png">
