@@ -5,7 +5,6 @@ recipe:
 install_files:
   - default.yaml
   - key_bindings.yaml
-  - punctuation.yaml
   - quick5.schema.yaml
   - quick5de.schema.yaml
   - quick5.extended.dict.yaml

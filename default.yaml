@@ -17,11 +17,6 @@ switcher:
   option_list_separator: "／"
 menu:
   page_size: 9
-punctuator:
-  full_shape:
-    __include: punctuation:/full_shape
-  half_shape:
-    __include: punctuation:/half_shape
 key_binder:
   bindings:
     __patch:
