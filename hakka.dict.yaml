@@ -324,7 +324,6 @@ use_preset_vocabulary: true
 糕仔
 雞卵糕
 卵糕
-米
 豆乳
 米乳
 牛乳
@@ -438,18 +437,15 @@ use_preset_vocabulary: true
 袋仔
 手落仔
 嘴落仔
-鍊
 金鍊仔
 耳環
 耳環仔
-手
 手環仔
 禁指
 金戒牿
 手指落
 針線
 皮鞋
-高鞋
 靴仔
 水靴筒
 靴筒
@@ -541,7 +537,6 @@ use_preset_vocabulary: true
 信袋仔
 信絡仔
 稅屋仔
-屋仔
 租屋仔
 飛行機
 輪船
@@ -633,7 +628,6 @@ use_preset_vocabulary: true
 鑊仔
 電鑊仔
 蓋仔
-笠
 竹篙
 竹篙仔
 索仔
@@ -898,7 +892,6 @@ use_preset_vocabulary: true
 發癌
 近視
 老花眼
-腦筋
 小兒麻痺
 照光線
 照電光
@@ -942,7 +935,6 @@ use_preset_vocabulary: true
 發譴
 發閼
 分享
-手
 重複
 訪問
 歡迎
@@ -1066,7 +1058,6 @@ use_preset_vocabulary: true
 蛇哥
 蟾蜍
 蟾蜍囉
-仔
 蛤蟆
 魚仔
 鰗鰍仔
@@ -1084,7 +1075,6 @@ use_preset_vocabulary: true
 油籮蜂
 牛籮蜂
 虎頭蜂
-
 壁蛇
 簷蛇
 黏蛇仔
@@ -1094,7 +1084,6 @@ use_preset_vocabulary: true
 挨礱披波
 竹篙鬼
 調羹仔
-公
 山牛牯
 山牛角
 蠶仔
@@ -1104,7 +1093,6 @@ use_preset_vocabulary: true
 蚊仔
 烏蠅
 黃蚻
-蝨
 公頃
 平方公尺
 全部
@@ -1365,7 +1353,6 @@ use_preset_vocabulary: true
 烏陰天
 涼爽
 響雷公
-爧
 落雨
 起濛紗煙
 起濛露
@@ -1651,7 +1638,6 @@ use_preset_vocabulary: true
 銃仔
 銃子
 刀仔
-相
 陸軍
 海軍
 空軍
@@ -1787,7 +1773,6 @@ use_preset_vocabulary: true
 冷颼颼
 冷沁沁
 涼沁沁
-熱仔
 寒天
 冷天
 熱天
@@ -2028,7 +2013,6 @@ use_preset_vocabulary: true
 初伏
 中伏
 末伏
-一目
 一眨眼
 一眨目
 一眨眼
@@ -2213,7 +2197,6 @@ use_preset_vocabulary: true
 大牙
 大牙板
 手腕
-手
 手指甲
 腳趾甲
 手指公
@@ -2223,7 +2206,6 @@ use_preset_vocabulary: true
 棟指
 中指
 無名指
-矮指
 蘸藥指
 手指尾
 腳趾公
@@ -2302,7 +2284,6 @@ use_preset_vocabulary: true
 唱歌仔
 唱山歌
 和山歌
-唱卡拉OK
 跳舞
 交朋友
 交朋結友
@@ -2460,7 +2441,6 @@ use_preset_vocabulary: true
 老鳥精
 老腳仔
 講頭知尾
-食蛇食
 養蛇食雞
 高大
 阿不倒
@@ -2470,7 +2450,6 @@ use_preset_vocabulary: true
 高溜
 矮細
 矮頓
-矮
 胖大
 大箍
 肥儡肥儡
@@ -2840,7 +2819,6 @@ use_preset_vocabulary: true
 打跛腳雞
 企坐毋核
 有講有笑
-有講有
 行灶下樣仔
 坐上橫頭
 坐上頭
@@ -2895,7 +2873,6 @@ use_preset_vocabulary: true
 打油
 打秧
 落秧
-秧
 打觔斗
 種觔斗
 打卵
@@ -2982,7 +2959,6 @@ use_preset_vocabulary: true
 稱說
 熟事
 熟水
-手
 投人
 敨氣
 敨開來
@@ -3007,8 +2983,6 @@ use_preset_vocabulary: true
 做衫褲
 失魂
 失聲
-貼手
-墊手
 鋸絃仔
 挨絃仔
 磨粄仔
@@ -3038,8 +3012,6 @@ use_preset_vocabulary: true
 倒樹仔
 倒酒
 打酒
-忒
-歇
 加等
 卡等
 合等
@@ -3150,7 +3122,6 @@ use_preset_vocabulary: true
 綿忒
 綿歇
 刻人
-擔
 擎手
 爛忒
 爛核
@@ -3165,11 +3136,9 @@ use_preset_vocabulary: true
 橫下來
 瀉走
 透風
-蛇窿透窟
 詐意仔
 詐勢
 鑽過去
-阿
 挾錢
 攝錢
 受當毋起
@@ -3202,7 +3171,6 @@ use_preset_vocabulary: true
 硬硬
 苦毒
 賴人
-懶仔
 勞心
 面皮皮仔
 無面無皮
@@ -3238,8 +3206,6 @@ use_preset_vocabulary: true
 歪心
 心寒膽顫
 唉唉唧唧
-唉唉
-唉唉
 唉唉唧唧
 懊惱
 蹦跳
@@ -3303,9 +3269,6 @@ use_preset_vocabulary: true
 蠕蠕膩膩
 鴨仔聽雷
 擘嘴擘鼻
-飽仔
-飽背
-背仔
 比手畫腳
 發琢愕
 發愕
@@ -3313,9 +3276,7 @@ use_preset_vocabulary: true
 發肉雄
 掣等走
 躁躁轉
-腦轉
 夾上夾下
-腦轉
 呻生呻死
 抽胲另命
 鈂鈂
@@ -3350,10 +3311,8 @@ use_preset_vocabulary: true
 健康
 康健
 蓋健
-譴仔
 譴腸閼胗
 譴膣閼腸
-苶苶仔
 樂樂
 樂線
 礱礱舂舂
@@ -3381,9 +3340,7 @@ use_preset_vocabulary: true
 懵懵懂懂
 膩膩細細
 餒餒
-牙仔
 牙研目皺
-囓牙齒
 耳聾頂碓
 額結結仔
 殗殗
@@ -3442,7 +3399,6 @@ use_preset_vocabulary: true
 頭臥臥
 黃皮瘦弱
 瘦膣踉腔
-
 嘴嘟鼻翹
 朘朘
 好擳擳仔
@@ -3539,7 +3495,6 @@ use_preset_vocabulary: true
 卵餅
 烰菜
 甜不辣
-米
 米冇仔
 米醬
 豆醬
@@ -3854,7 +3809,6 @@ use_preset_vocabulary: true
 褲裙
 底褲仔
 肚褡褲
-仔褲
 褲搭仔
 褲腳
 褲頭
@@ -3868,10 +3822,8 @@ use_preset_vocabulary: true
 鞋帶仔
 自由鞋
 涼鞋
-鞋
 長靴筒
 平底鞋
-無鞋
 籃球鞋
 溜冰鞋
 登山鞋
@@ -3916,7 +3868,6 @@ use_preset_vocabulary: true
 金牌
 綵帶
 珠包
-鍊
 耳環
 大手帕
 洋巾
@@ -4021,10 +3972,8 @@ use_preset_vocabulary: true
 刺目眉毛
 雷射除斑
 磨皮
-弛胸胛
 律律不不
 落臍
-
 窿窿空空
 爛爛擐擐
 衣衫襤褸
@@ -4655,7 +4604,6 @@ use_preset_vocabulary: true
 份家啦飯仔
 搞家啦細飯仔
 搞家啦飯仔
-拈蛇打
 涉水
 賭人尋
 囥人尋
@@ -4741,7 +4689,6 @@ use_preset_vocabulary: true
 溫泉
 坐涼
 哺煙
-煙
 譫哆
 齣事
 花樣
@@ -4850,7 +4797,6 @@ use_preset_vocabulary: true
 四月八
 佛祖生
 洗佛
-飯
 奉飯
 當天咒誓
 當天發誓
@@ -4922,7 +4868,6 @@ use_preset_vocabulary: true
 許福
 迎財神
 送鬼仔
-做
 做中元
 做普渡
 問卜
@@ -5008,9 +4953,7 @@ use_preset_vocabulary: true
 做生日
 做滿月
 做對歲
-粽仔
 裹粽仔
-頭牲
 打紙炮
 拜年
 過年過節
@@ -5228,9 +5171,7 @@ use_preset_vocabulary: true
 做官
 排攤仔
 百貨店
-豬
 屠豬
-豬仔
 餐廳
 花店
 會計師
@@ -5293,8 +5234,6 @@ use_preset_vocabulary: true
 時錶行
 豆乳店
 冰果店
-砰米
-打米
 茶行
 飯店
 服裝行
@@ -5771,7 +5710,6 @@ use_preset_vocabulary: true
 派兵
 消滅
 新兵訓練
-相
 斬頭
 調單
 徵集令
@@ -5801,7 +5739,6 @@ use_preset_vocabulary: true
 細豬仔
 雞公
 雞子
-雞仔
 鴨子
 細鴨仔
 鵝公
@@ -5870,7 +5807,6 @@ use_preset_vocabulary: true
 草唧仔
 土狗仔
 豺蟲
-角蟲
 團魚仔
 腳魚仔
 蟻仔
@@ -5903,7 +5839,6 @@ use_preset_vocabulary: true
 飯匙衝
 喊呼蛇
 泥蛇
-草蛇
 百步蛇
 水蛇
 水筆蛇
@@ -5948,12 +5883,6 @@ use_preset_vocabulary: true
 蠶繭
 蠶包
 蠶繭
-蠟
-青竹
-竹唊
-竹葉
-仔
-蜱
 龜仔
 石貼仔
 石斑仔
@@ -6210,7 +6139,6 @@ use_preset_vocabulary: true
 山蕨
 水蕨
 槳草
-槳草
 鷂婆草
 鳳尾草
 金狗毛
@@ -6272,7 +6200,6 @@ use_preset_vocabulary: true
 禾鐮仔
 托盤
 米缸
-車
 鉋仔
 尿桶
 角尺
@@ -6310,10 +6237,7 @@ use_preset_vocabulary: true
 桶仔
 缽仔
 舂臼
-魚仔
-公
 祛把
-箕
 伐鐮
 絡索
 菜瓜布
@@ -6488,7 +6412,6 @@ use_preset_vocabulary: true
 好點點
 好恬恬
 如意
-落落仔
 幼幼仔
 柔柔仔
 浸青
@@ -6603,7 +6526,6 @@ use_preset_vocabulary: true
 平洋洋仔
 親暱暱仔
 三長兩短
-誚誚
 爽平
 上上下下
 上上下下
@@ -6770,7 +6692,6 @@ use_preset_vocabulary: true
 挑工
 挑事
 挑故意
-
 難講
 加減
 險險
@@ -7163,7 +7084,6 @@ use_preset_vocabulary: true
 拈食指
 中指
 無名指
-矮指
 蘸藥指
 手指尾
 腳趾公
@@ -7241,7 +7161,6 @@ use_preset_vocabulary: true
 起猴性
 低言細語
 老腳仔
-食蛇食
 養蛇食雞
 大箍
 肥律律
@@ -7380,7 +7299,6 @@ use_preset_vocabulary: true
 痔仔
 打鳥眼
 打鳥目
-有講有
 坐上頭
 坐上桌
 坐監
@@ -7429,7 +7347,6 @@ use_preset_vocabulary: true
 摒屎
 搓粄仔
 讓分人
-歇
 合身
 靈活
 結子
@@ -7469,7 +7386,6 @@ use_preset_vocabulary: true
 蓋有自信
 陣上
 沉毒
-唉唉
 發青驚
 堪堪裁裁
 躁光
@@ -7486,8 +7402,6 @@ use_preset_vocabulary: true
 歡喜靂天
 無頭神
 蠕蠕膩膩
-飽背
-背仔
 發愕
 發呆
 夾上夾下
@@ -7506,7 +7420,6 @@ use_preset_vocabulary: true
 目汁濫泔
 目汁闌干
 牙研目皺
-囓牙齒
 眼拐摝天
 眼茫鼻花
 牛膣馬面
@@ -7621,7 +7534,6 @@ use_preset_vocabulary: true
 胭脂
 絨頭絞髻
 燒電
-
 正門
 側門
 天墀坪
@@ -7749,7 +7661,6 @@ use_preset_vocabulary: true
 過願
 觀光果園
 哺煙
-煙
 花樣
 著獎券
 賭博
@@ -7829,7 +7740,6 @@ use_preset_vocabulary: true
 打粄仔
 做滿月
 裹粽仔
-頭牲
 打紙炮
 拜年
 過年過節
@@ -7893,7 +7803,6 @@ use_preset_vocabulary: true
 食公家飯
 幼稚園
 情報員
-豬仔
 會計師
 建材行
 戲園
@@ -8046,7 +7955,6 @@ use_preset_vocabulary: true
 防空演習
 響角
 演習
-相
 調單
 徵集令
 雞公仔
@@ -8054,7 +7962,6 @@ use_preset_vocabulary: true
 細羊仔
 細牛仔
 細豬仔
-雞仔
 細鴨仔
 細鵝仔
 細鳥仔
@@ -8076,17 +7983,12 @@ use_preset_vocabulary: true
 龜殼蛇
 青竹蛇
 喊呼蛇
-草蛇
 臭青蛇
 細蛇哥
 介殼蟲
 屎烏蠅
 屎蟲
 蠶繭
-蠟
-青竹
-竹夾
-竹葉
 石貼仔
 花肚鯽
 海剉魚
@@ -8140,8 +8042,6 @@ use_preset_vocabulary: true
 茶剪仔
 桶仔
 缽仔
-魚仔
-公
 晃槓仔
 棧仔
 電磁爐
@@ -8372,7 +8272,6 @@ use_preset_vocabulary: true
 懊躁
 發狂
 開容笑面
-腦轉
 口涎波沷
 樂線
 礱礱舂舂
@@ -8406,7 +8305,6 @@ use_preset_vocabulary: true
 藍衫
 裙搭仔
 尿帕仔
-仔褲
 褲搭仔
 籃球鞋
 耳環
@@ -8416,7 +8314,6 @@ use_preset_vocabulary: true
 吊耳環
 毛絨絨仔
 冷電
-
 冷膠
 桷仔皮
 石卵
