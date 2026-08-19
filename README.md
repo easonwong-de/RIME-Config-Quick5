@@ -64,4 +64,4 @@ After installation, launch RIME’s settings menu (or trigger your frontend's de
 
 ## Vocabulary Sources
 
-- Cantonese dictionary vocabulary sourced from [CanCLID/rime-cantonese-upstream](https://github.com/CanCLID/rime-cantonese-upstream).
+- **Cantonese Vocabulary (`cantonese.dict.yaml`)**: Sourced and adapted from [CanCLID/rime-cantonese-upstream](https://github.com/CanCLID/rime-cantonese-upstream) by the [Cantonese Computational Linguistics Infrastructure Development Workgroup (CanCLID)](https://github.com/CanCLID), licenced under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Vocabulary entries are extracted and filtered from upstream datasets (`word.csv`, `fixed_expressions.csv`, `phrase_fragment.csv`, and `trending.csv`).
